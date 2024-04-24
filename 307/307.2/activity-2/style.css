@@ -1,0 +1,16 @@
+td, th {
+    border: 1px solid red;
+}
+table {
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    border: 5px solid green;
+}
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+th {
+    width: 100%;
+}
