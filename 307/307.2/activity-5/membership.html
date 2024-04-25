@@ -4,32 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join the Lebanon Historical Society</title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
+     <!-- navbar -->
     <section>
-        <h1>Get a membership</h1>
-        <p>Become a member of the Lebanon Historical Society by filling out the form below.</p>
-    </section>
-    <section>
-        <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <label for="cpassword">Confirm Password:</label><br>
-            <input type="password" id="cpassword" name="cpassword">
-            <p>Newsletter preferences:</p>
-            <input type="radio" id="sports" name="sports" value="Bike">
-            <label for="sports"> I want the monthly newsletter</label><br>
-            <input type="radio" id="eat" name="eat" value="Car">
-            <label for="eat"> I do not want the monthly newsletter</label><br>
-            <input type="submit" value="Submit">
-          </form> 
-    </section>
+        <ul class="text-center">
+            <li><a class="active" href="#home">Lebanon Historical Society</a></li>
 
-</body>
+        </ul>
+    </section>
+    <!-- body -->
+    <section class="container flex justify-content-center">
+        <div class="">
+        <h1 class="mt-5">Get a membership</h1>
+        <p>Become a member of the Lebanon Historical Society by filling out the form below.</p>
+    </div>
+    </section>
+    <!-- form -->
+    <section class="container flex justify-content-center">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <!-- newsletter -->
+                <p class="mb-1 mt-2">Newsletter preferences:</p>
+                <input type="radio" id="news-y" name="news-y" value="Yes">
+                <label for="sports"> I want the monthly newsletter</label><br>
+                <input type="radio" id="news-n" name="news-n" value="No">
+                <label for="eat"> I do not want the monthly newsletter</label><br>
+                <!-- fee -->
+                <input type="checkbox" id="fee" name="fee" value="fee">
+                <label for="fee"> I understand there is a $50 membership fee.</label><br>
+                <!-- button -->
+                <input type="submit" value="Submit">
+
+            </form>
+    </section>
+    <footer>
+        Test
+    </footer>
+    </body>
 </html>
