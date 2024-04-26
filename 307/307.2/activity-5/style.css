@@ -39,6 +39,10 @@ ul {
     height: 300px;
     background-color: #E2D8D2;
     padding-top: 2rem;
+    background-image: url(leb-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .hero-blurb {
     width: 300px;
@@ -46,7 +50,7 @@ ul {
     background-color: white;
     padding: 15px;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     border-radius: 2px;
   }
 button {
@@ -87,6 +91,7 @@ input[type="submit"] {
   color: white;
   padding: 6px 12px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 input[type="text"] {
   margin-bottom: 1rem;
@@ -116,7 +121,7 @@ footer {
   fill: #3D3D3D;
 }
 .fa-icon-row {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 .genealogy {
@@ -132,4 +137,7 @@ footer {
 .contact-link {
   color: white;
   text-decoration: none;
+}
+.icon-text {
+  font-size: 1.2rem;
 }
