@@ -1,0 +1,66 @@
+section {
+	text-align: center;
+	background-color: #FD354C;
+	width: 500px;
+	margin: auto;
+	height: 450px;
+	border: 1px solid black;
+}
+a {
+	color: #f6b244;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+h1 {
+	margin: 2rem 0;
+	color: white;
+	font-size: 3rem;
+}
+input[type="submit"] {
+	background-color: white;
+	padding: .5rem 4rem;
+	color: red;
+	font-size: 1.1rem;
+	width: 80%;
+	height: 40px;
+}
+input {
+	margin-bottom: 1rem;
+	height: 40px;
+	width: 80%;
+	background-color: #CB2A3D;
+	border: none;
+}
+input::placeholder {
+
+	font-size: 1rem;
+	color: white;
+}
+svg {
+	height: 100px;
+}
+select {
+	margin-bottom: 1rem;
+	width: 81%;
+	height: 40px;
+	background-color: #CB2A3D;
+	border: none;
+	font-size: 1rem;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+textarea {
+	border: none;
+	background-color: #CB2A3D;
+	color: white;
+	margin-bottom: 1rem;
+	font-family: "Roboto", sans-serif;
+	width: 80%;
+}
+textarea::placeholder {
+	color: white;
+	font-size: .9rem;
+}
+body {
+	font-family: "Roboto", sans-serif;
+}
