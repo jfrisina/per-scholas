@@ -1,0 +1,28 @@
+/*-------------------- CALLOUT -------------------- */
+.callout {
+ --bs-link-color-rgb: var(--bd-callout-link);
+  --bs-code-color: var(--bd-callout-code-color);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: var(--bd-callout-color, inherit);
+  background-color: var(--bd-callout-bg, var(--bs-gray-100));
+  border-left: 0.25rem solid #3DAFC2;
+  width: 33%;
+  border-radius: 4px
+}  
+.callout-container {
+    justify-content: space-evenly;
+}
+.btn-primary {
+    background-color: #384B88 !important;
+    border-color: #384B88 !important;
+}
+.card-header {
+    color: #384B88 !important;
+}
+footer {
+    background-color: #3D3D3D;
+    height: 200px;
+    color: #3D3D3D;
+}
