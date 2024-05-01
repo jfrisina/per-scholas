@@ -1,0 +1,29 @@
+/*---- GENERAL ----*/
+body {
+	font-family: "Roboto", sans-serif;
+}
+.container {
+	width: 80%;
+}
+
+/*---- WELCOME ----*/
+.welcome {
+	padding: 3rem 0;
+	background-color: #F6F6F6;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 50%;
+}
+
+/*---- CARD ----*/
+.card-header {
+	color: #384B88 !important;
+}
+
+footer {
+    background-color: #3D3D3D;
+    height: 200px;
+    color: #3D3D3D;
+}
